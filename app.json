@@ -1,0 +1,25 @@
+{
+  "name": "search-files-heroku",
+  "description": "search-files-heroku",
+  "logo": "https://docs.giga-rapid.com/assets/guides/apps/icons/rclone.svg",
+  "keywords": ["serch", "heroku", "web", "herokuweb", "safe", "oneclickdeploy", "deploy-to-heroku", "docker"],
+  "env": {
+      "RCLONE_CONFIG_IN_RAW_URL": {
+      "description": "Paste rclone config in RAW url (use githubgist secret)",
+      "value": "http://raw..gist../rclone.conf"
+    },
+      "WEBPASSWORD": {
+      "description": "website password",
+      "value": "Enter your new password here"
+    },
+      "WEBUSER": {
+      "description": "website username",
+      "value": "Enter your new username here"
+    }
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
